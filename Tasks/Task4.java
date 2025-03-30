@@ -3,7 +3,7 @@ package Tasks;
 import java.util.Scanner;
 
 public class Task4 {
-    // Time Complexity: O(n) - Linear recursion
+    // Time Complexity: O(n) - Linear recursion/
     public static int findFactorial(int n) {
         if (n == 0 || n == 1) {
             return 1;
