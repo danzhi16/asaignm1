@@ -3,6 +3,7 @@ package Tasks;
 import java.util.Scanner;
 
 public class Task2 {
+    // Time Complexity: O(n) - Sum of all elements
     public static double findAverage(int[] arr, int n) {
         int sum = 0;
         for (int i = 0; i < n; i++) {

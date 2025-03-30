@@ -3,6 +3,7 @@ package Tasks;
 import java.util.Scanner;
 
 public class Task1 {
+    // Time Complexity: O(n) - Linear scan to find minimum
     public static int findMin(int[] arr, int n) {
         int min = arr[0];
         for (int i = 1; i < n; i++) {

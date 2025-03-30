@@ -2,6 +2,7 @@ package Tasks;
 import java.util.Scanner;
 
 public class Task3 {
+    // Time Complexity: O(√n) - Divisibility check up to √n
     public static boolean isPrime(int n) {
         if (n <= 1) return false;
         for (int i = 2; i * i <= n; i++) {
